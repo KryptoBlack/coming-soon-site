@@ -1,0 +1,136 @@
+body {
+    background-color: #000000;
+    font-family: 'Open Sans';
+    color: #FFFAFA;
+    height: 100%;
+    overflow: clip;
+}
+
+#top-bar {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 20px;
+}
+
+#top-bar span {
+    /* border: 1px solid white; */
+    font-family: 'Open Sans Condensed';
+    font-size: 1.2rem;
+}
+
+#top-bar .line {
+    /* border-top: 1px solid white; */
+    width: 100%;
+    background-color: #FFFAFA;
+    margin: 0px 15px;
+    border-radius: 5px;
+}
+
+#typography {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20vw 0px;
+    margin-top: 15vh;
+}
+
+#typography .company {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#typography .coming-soon {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+}
+
+#notify {
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#notify input {
+    background-color: transparent;
+    color: #FFFAFA;
+    border: none;
+    outline: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Open Sans Condensed';
+  color: #FFFAFA;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: 'Open Sans Condensed';
+  color: #FFFAFA;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  font-family: 'Open Sans Condensed';
+  color: #FFFAFA;
+}
+
+#notify button {
+    color: #FFFAFA;
+    background-color: #004AAD;
+    border-radius: 6px;
+    padding: 5px;
+    border: none;
+}
+
+#notify button:hover {
+    background-color: #003B8B;
+}
+
+#socials-and-contact {
+    /* border: 1px white solid; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#socials-and-contact span {
+    font-family: 'Open Sans Condensed';
+}    
+
+#socials-and-contact .links {
+    margin: 15px;
+}
+
+#socials-and-contact .links a {
+    text-decoration: none;
+    margin: 0px 10px;
+}
+#socials-and-contact a img {}
+
+#company-logo {
+    position: relative;
+    overflow: hidden;
+    padding: 50vw;
+}
+
+#company-logo img {
+    position: absolute;
+    bottom: -60px;
+    right: -110px;
+    height: 400;
+}
+
